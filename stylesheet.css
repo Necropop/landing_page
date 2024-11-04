@@ -1,0 +1,96 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin-left:48px;
+    margin-right:48px;
+    background-color: black;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-items: center;
+    color:#f9faf8;
+}
+
+.header{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.header-title{
+    margin:20px;
+    color:#f9faf8;
+    margin:20px;
+}
+
+li{
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+.header-links{
+    display: flex;
+    align-items: center;
+    padding:0;
+    justify-content: flex-end;
+    margin: 20px;
+    
+}
+
+.content-1{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    background-color: #1f2937;
+}
+
+.dragon-1{
+    margin: 48px;
+}
+
+.content-1-subheaders{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex:50%;
+    background-color: #1f2937;
+}
+
+.content-1-subheader{
+    font-size: 48px;
+    margin:48px;
+    text-align: center;
+    font-weight: 900;
+    color:#f9faf8;
+    
+    
+}
+
+.content-1-subtext{
+    font-size: 18px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 48px;
+    margin-right:48px;
+    color:#f9faf8;
+}
+
+.adpot-button{
+    display: flex;
+    justify-content: center;
+    margin: 48px;
+}
+
+button{
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+}
