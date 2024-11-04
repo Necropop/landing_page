@@ -4,7 +4,10 @@ body{
     margin-left:48px;
     margin-right:48px;
     background-color: black;
+}
 
+p{
+    color:#f9faf8;
 }
 
 ul{
@@ -28,8 +31,9 @@ ul{
 }
 
 li{
-    padding-left: 10px;
-    padding-right:10px;
+    padding-left: 20px;
+    padding-right:20px;
+    font-size: 18px;
 }
 
 .header-links{
@@ -93,4 +97,47 @@ button{
     justify-content: center;
     height: 50px;
     width: 150px;
+}
+
+.content-2-subheader{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 900;
+    border-style: inset;
+    border-radius: 10px;
+}
+
+.content-2-img_disc{
+    display: flex;
+    justify-content: space-around;
+    gap:10px;
+}
+
+.group-1, .group-2, .group-3, .group-4{
+    display: flex;
+    flex-direction: column;
+    border-style: inset;
+    border-radius: 10px;
+}
+
+.content_2_img_1, .content_2_img_2, .content_2_img_3, .content_2_img_4{
+    display: flex;
+    align-self: center;
+    margin:10px;
+}
+
+.disc_1_header, .disc_2_header, .disc_3_header, .disc_4_header{
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content_2_disc_1, .content_2_disc_2, .content_2_disc_3, .content_2_disc_4{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
 }
