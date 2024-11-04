@@ -63,7 +63,7 @@ li{
 }
 
 .content-1-subheader{
-    font-size: 48px;
+    font-size: 36px;
     margin:48px;
     text-align: center;
     font-weight: 900;
@@ -186,4 +186,68 @@ button{
     margin-top: 20px;
     margin-right:200px;
     justify-content: flex-end;
+}
+
+.content-4{
+    display: flex;
+
+    background-color: white;
+}
+
+.call_wraper{
+    display: flex;
+    flex-direction: column;
+    background-color:  #3882f6;
+    flex:1 50%;
+    color:#e5e7eb;
+    border-top: solid;
+    border-bottom: solid;
+    border-left: solid;
+    border-color:  #3882f6;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.call_wraper{
+    display: flex;
+    margin-left:250px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.call, .call-subtext{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+.call{
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.button_wraper{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #3882f6;
+    margin-right:250px;
+    border-top: solid;
+    border-bottom: solid;
+    border-right: solid;
+    border-color:  #3882f6;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.sign_up{
+    margin:10px;
 }
