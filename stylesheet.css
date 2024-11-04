@@ -1,13 +1,8 @@
 body{
     display: flex;
     flex-direction: column;
-    margin-left:48px;
-    margin-right:48px;
     background-color: black;
-}
-
-p{
-    color:#f9faf8;
+    margin: 0;
 }
 
 ul{
@@ -72,9 +67,8 @@ li{
     margin:48px;
     text-align: center;
     font-weight: 900;
-    color:#f9faf8;
-    
-    
+    background-color: #1f2937;
+    color: #e5e7eb;
 }
 
 .content-1-subtext{
@@ -84,7 +78,8 @@ li{
     margin-bottom: 16px;
     margin-left: 48px;
     margin-right:48px;
-    color:#f9faf8;
+    background-color: #1f2937;
+    color:#e5e7eb;
 }
 
 .adpot-button{
@@ -98,33 +93,54 @@ button{
     height: 50px;
     width: 150px;
 }
+.content-2{
+    background-color: white;
+}
+
+.content-2 p{
+    color: black;
+    background-color: white;
+}
 
 .content-2-subheader{
     display: flex;
     justify-content: center;
     font-size: 40px;
     font-weight: 900;
-    border-style: inset;
+    border-style: solid;
     border-radius: 10px;
+    background-color: white;
+    margin-left: 48px;
+    margin-right: 48px;
+    
 }
 
 .content-2-img_disc{
     display: flex;
     justify-content: space-around;
     gap:10px;
+    background-color: white;
+}
+
+.avalible_dragons{
+    margin-left:48px;
+    margin-right:48px;
+    margin-bottom: 48px;
 }
 
 .group-1, .group-2, .group-3, .group-4{
     display: flex;
     flex-direction: column;
-    border-style: inset;
+    border-style: solid;
     border-radius: 10px;
+    background-color: white;
 }
 
 .content_2_img_1, .content_2_img_2, .content_2_img_3, .content_2_img_4{
     display: flex;
     align-self: center;
     margin:10px;
+    background-color: white;
 }
 
 .disc_1_header, .disc_2_header, .disc_3_header, .disc_4_header{
@@ -133,11 +149,41 @@ button{
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
+    background-color: white;
 }
 
 .content_2_disc_1, .content_2_disc_2, .content_2_disc_3, .content_2_disc_4{
     display: flex;
     flex-direction: column;
     margin: 10px;
+    background-color: white;
+}
 
+.content-3{
+    display: flex;
+    flex-direction:column;
+    flex-basis: content;
+    font-size: 30px;
+    font-style: italic;
+    background-color: #e5e7eb;
+}
+
+.customer-quote{
+    display: flex;
+    flex-direction: column;
+    margin: 300px;
+    margin-bottom:0px;
+    margin-top: 0px;
+    color: black;
+}
+
+.stars{
+    margin-left:250px;
+}
+
+.signature{
+    display: flex;
+    margin-top: 20px;
+    margin-right:200px;
+    justify-content: flex-end;
 }
